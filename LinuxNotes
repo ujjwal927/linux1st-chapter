@@ -1,0 +1,168 @@
+[codingwale@localhost ~]$	=> prompt
+codingwale 	=> user
+@ 		=> seperator
+localhost	=> machine name
+~		=> home directory
+$		=> local user
+# 		=> super user(root)
+
+-----------------
+clear		=> terminal clean
+history		=> command history
+su - username	=> switch user
+useradd ujjwal	=> to add new local user
+passwd ujjwal	=> to set new password
+
+date		=> current date & time
+
+
+[root@localhost ~]# date
+Sat Aug  8 12:14:52 AM EDT 2026
+[root@localhost ~]# date +%d
+08
+[root@localhost ~]# date +%m
+08
+[root@localhost ~]# date +%Y
+2026
+[root@localhost ~]# date +%y
+26
+[root@localhost ~]# date +%H
+00
+[root@localhost ~]# date +%M
+15
+[root@localhost ~]# date +%s
+1786162531
+[root@localhost ~]# date +%S
+34
+[root@localhost ~]# date -s "09 Aug 2026"
+Sun Aug  9 12:00:00 AM EDT 2026
+[root@localhost ~]# date -s "09:46 AM"
+Sun Aug  9 09:46:00 AM EDT 2026
+
+--------------------------------------
+
+cal 	
+cal -3
+cal -y
+cal 2028
+cal -j
+
+-------------
+
+ls 		=> list contents
+
+Folder/Directory - Create , Delete, copy,
+move/cut , rename, open , baher yene
+
+CREATE:
+
+ mkdir demo
+ mkdir demo2 demo3 demo4
+ mkdir demo{5..50}
+ mkdir {a..z}
+ mkdir "sanket manjare"
+ mkdir .photo		=> to create hidden folder/dir
+------------
+DELETE:
+
+ rmdir demo
+ rmdir demo2 demo3 demo4
+ rmdir demo{5..50}
+ rmdir {a..z}
+ rmdir "sanket manjare"
+------------
+
+cd demo		=> change dir (madhe janyasathi)
+ .		=> current folder/dir
+ ..		=> parent dir / maghche folder/dir
+ 
+-------------
+
+COPY :
+
+cp -r sample demo	=> copy sample into demo
+
+-------------
+
+MOVE/CUT : mv source destination
+
+mv demo sample 		=> cut/move demo into sample
+
+-------------
+
+RENAME:  mv oldname newname
+
+mv demo demo2 		=> change demo to demo2
+
+------------
+
+LIST:
+
+ls 	=> list content
+ls -l	=> alphabatical order
+ls -ltr	=> timewise order
+ls -a	=> hidden files & folders/dir
+
+lscpu	=> cpu details
+lspci	=> peripheral connectivity interface
+lsusb	=> list usb ports
+
+-----------------
+free		=> ram/memory details
+free -m		=> mb
+free -g		=> gb
+free -h		=> human readble
+free -k		=> kb
+
+-----------------
+
+man cp		=> manual for cp command
+man ls		=> manual for ls command
+
+info cp		=> info about cp
+info ls		=> info about ls
+
+free --help	=> option dete
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
